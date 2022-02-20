@@ -1,0 +1,78 @@
+.TweetSection{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6ecf0;
+    padding-right: 10px;
+}
+.TweetSection >form{
+    display: flex;
+    flex-direction: column;
+}
+.TweetSection__input{
+    padding: 20px;
+    display: flex;
+}
+.TweetSection__input >input{
+    flex:1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+.TweetSection__tweetButton{
+    background-color:#8ecdf1 !important;
+    border:none !important;
+    color:white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    /* margin-top: 20px !important; */
+    width: 80px;
+    /* margin-left: auto !important; */
+    
+}
+.TweetSection__input1{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color:#53b5ee !important ;
+    overflow-wrap: break-word
+}
+
+.TweetSection__input-icons{
+    /* color:rgb(29, 155, 240) !important;
+    font-weight: 700 !important;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    border-radius: 30px !important;
+    margin-right: auto !important; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding-left: 4em;
+    color: #53b5ee;
+}
+
+/* .TweetSection__input-icons:hover {
+    border-radius: 50%;
+    background-color: #53b5ee;
+    opacity: .1;
+} */
+
+.TweetSection__input-icons svg {
+    cursor: pointer;
+    /* margin: 0 .25em; */
+    padding: 8px;
+
+}
+
+.TweetSection__input-icons svg:hover{
+    border-radius: 50%;
+    background-color: #e1eff8;
+}
+
+.tweet-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

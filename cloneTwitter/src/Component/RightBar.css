@@ -1,0 +1,97 @@
+
+.rightBar {
+    flex: 0.3;
+  }
+  .input {
+    display: flex;
+    align-items: center;
+    background-color: #e6ecf0;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .input > input {
+    border: none;
+    background-color: #e6ecf0;
+  }
+  .search_icon {
+    color: gray;
+  }
+  .container {
+    right: 0px;
+    max-width: 500px;
+    min-width: 400px;
+    background: #e2e2e2;
+    margin: 4em;
+    border-radius: 20px;
+    padding: 6px 0;
+  }
+  h2 {
+    margin: 10px 15px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .whatsHappening {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .item-1 {
+    display: flex;
+    align-items: center;
+  }
+  .item-1-content {
+    align-self: flex-start;
+    margin-right: 20px;
+  }
+  
+  .item-1,
+  .item-2 {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .item-1:hover,
+  .item-2:hover {
+    background: #c7c7c7;
+  }
+  
+  .item-1 p,
+  .item-2 p {
+    font-weight: bold;
+    margin: 4px 0;
+  }
+  
+  .item-1 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+  }
+  
+  #show-more-btn {
+    color: rgb(29, 155, 240);
+    opacity: 0.8;
+    font-size: 14px;
+    margin: 15px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  #show-more-btn:hover {
+    opacity: 1;
+  }
+  
+  .nav-link {
+    color: grey;
+    font-size: 14px;
+  }
+  
+  .content {
+    margin: 0;
+    padding: 0;
+  }
