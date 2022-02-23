@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-twiiterhomepage-dev-150501-authRole",
+      "UnauthRoleArn": "arn:aws:iam::163806924483:role/amplify-twiiterhomepage-dev-150501-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::163806924483:role/amplify-twiiterhomepage-dev-150501-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-twiiterhomepage-dev-150501-deployment",
+      "UnauthRoleName": "amplify-twiiterhomepage-dev-150501-unauthRole",
+      "StackName": "amplify-twiiterhomepage-dev-150501",
+      "StackId": "arn:aws:cloudformation:us-west-2:163806924483:stack/amplify-twiiterhomepage-dev-150501/8f455380-92f9-11ec-87bd-0af5b1007f41",
+      "AmplifyAppId": "d1xd38w4qdz1ts"
+    }
+  },
+  "auth": {
+    "twiiterhomepage44799e2e": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-twiiterhomepage-dev-150501-deployment/amplify-cfn-templates/auth/twiiterhomepage44799e2e-cloudformation-template.json",
+        "logicalId": "authtwiiterhomepage44799e2e"
+      },
+      "lastPushTimeStamp": "2022-02-21T09:41:34.432Z",
+      "output": {
+        "UserPoolId": "us-west-2_Uv0pmseC0",
+        "AppClientIDWeb": "2an8p7qefhftn8ut22k1oifcq",
+        "AppClientID": "2fu4vptsh4fosmvp58jdkgootm",
+        "IdentityPoolId": "us-west-2:e607839b-e138-452f-90cb-534a814e1b75",
+        "UserPoolArn": "arn:aws:cognito-idp:us-west-2:163806924483:userpool/us-west-2_Uv0pmseC0",
+        "IdentityPoolName": "twiiterhomepage44799e2e_identitypool_44799e2e__dev",
+        "UserPoolName": "twiiterhomepage44799e2e_userpool_44799e2e"
+      },
+      "lastPushDirHash": "8f4wslB35uxJsFRvFOnDHrlpXDA="
+    }
+  }
+}

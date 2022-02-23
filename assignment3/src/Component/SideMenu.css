@@ -1,0 +1,20 @@
+.sidebar-menu{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebar-menu> .MuiSvgIcon-root{
+    padding: 20px;
+}
+
+.sidebar-menu>h2{
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.sidebar-menu:hover{
+    background-color: #d9dcdf;
+    border-radius: 30px;
+    color: #080808;
+   
+}
