@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-twiiterhomepage-dev-150501-authRole",
+      "UnauthRoleArn": "arn:aws:iam::163806924483:role/amplify-twiiterhomepage-dev-150501-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::163806924483:role/amplify-twiiterhomepage-dev-150501-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-twiiterhomepage-dev-150501-deployment",
+      "UnauthRoleName": "amplify-twiiterhomepage-dev-150501-unauthRole",
+      "StackName": "amplify-twiiterhomepage-dev-150501",
+      "StackId": "arn:aws:cloudformation:us-west-2:163806924483:stack/amplify-twiiterhomepage-dev-150501/8f455380-92f9-11ec-87bd-0af5b1007f41",
+      "AmplifyAppId": "d1xd38w4qdz1ts"
+    },
+    "categories": {
+      "auth": {
+        "twiiterhomepage44799e2e": {}
+      }
+    }
+  }
+}

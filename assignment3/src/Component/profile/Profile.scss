@@ -1,0 +1,145 @@
+// @import '../../../styles/variables';
+
+
+$primary-colors:('main':#1d9bf0,
+'light':#cce3f5,
+'dark':#129df3
+);
+
+$secondary-colors: ('main':#878788,
+'light': #eeeded,
+);
+
+
+
+.profile{
+    width: 100%;
+    border-right: 1px solid map-get($secondary-colors, 'light');
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    -ms-overflow-style: none;//IE and Edge
+    scrollbar-width: none;//firefox
+    .back-btn{
+        border-radius: 50%;
+        font-size: 1.6rem;
+        padding: 10px;
+        margin-right: 20px;
+        &:hover{
+            background-color: map-get($secondary-colors, 'light');        
+            cursor: pointer;
+        }
+    }
+    .profile__header{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px 10px;
+        border-bottom: 1px solid map-get($secondary-colors,'light');
+        background-color: white;
+        position: sticky;
+        top:0;
+        z-index: 10;
+        .profile__header__title{
+            font-size: 1rem;
+            span{
+                color:map-get($secondary-colors, 'main');
+            }
+        }
+    }
+    .profile-background{
+        position: relative;
+        .profile-background__upper{
+            background-color: map-get($secondary-colors,'light');
+            height: 25vh;
+        }
+
+        .profile-avatar-img{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left:20px;
+            top:0;
+            bottom: 0;
+            right: 0;
+            margin:auto 0;
+            border:3px solid white;
+        }
+        .profile-background__lower{
+            padding: 10px;
+            height: 25vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            gap: 10px;
+
+            span{
+                color: map-get($secondary-colors,'main');
+            }
+
+            .setup-profile{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                height: 50%;
+                text-decoration: none;
+                color: black;
+                & :hover{
+                    background-color: map-get($secondary-colors,'light');
+                }
+                
+
+                .setup-profile--small{
+                    height: 30%;  
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 20px;
+                    padding:0px 10px;
+                    border: 1.5px solid map-get($secondary-colors,'light');
+                    
+                }
+            }
+
+            .profile-calendar{
+                display: flex;
+                align-items: center;
+                color: map-get($secondary-colors,'main');
+            }
+            .profile-counts{
+                display: flex;
+                gap: 2px;
+                align-items: center;
+                .following{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    .profile-data-options{
+        display: flex;
+        justify-content: space-around;
+        gap:10px;
+        border-bottom: 1px solid map-get($secondary-colors,'light');
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex:1;
+            height: 40px;
+            text-decoration: none;
+            color: black;
+            &:hover{
+                background-color: map-get($secondary-colors,'light');
+            }
+            &.active{
+                border-bottom: 2px solid map-get($primary-colors,'main');
+            }
+        }
+    
+    }
+}

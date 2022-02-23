@@ -1,0 +1,42 @@
+.post {
+    margin: 1em;
+    display: flex;
+    border-bottom: 1px solid #e6ecf0;
+}
+
+.post-user {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 4px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.post-user svg {
+    color: #53b5ee;
+}
+.post-user-handle {
+    color: gray
+}
+
+.post-content {
+    margin: 4px;
+}
+
+.post-img {
+    border-radius: 14px;
+    margin-top: 8px
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 8px;
+}
+.post-actions svg {
+    margin-right: 8px;
+}
+.post-actions span {
+    display: flex;
+    align-items: center;
+}
